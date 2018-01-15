@@ -1,0 +1,8 @@
+h1 {
+	color: red;
+}
+
+.error-msg {
+	color: yellow;
+	background-color: red;
+}

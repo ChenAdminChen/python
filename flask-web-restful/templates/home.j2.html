@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+    <a>测试</a>
+    {% if name %}
+        <a>html name： {{name}} </a>
+    {% endif  %}
+    <!-- {% if session['user'] %}
+    <p>Welcome, {{session['user'].name}}</p>
+        {% if can_apply %}
+            <a href ='application'>application specialist</a>
+        {% endif %}
+        {% if can_approve %}
+            <a href ='approves'>approve specialist</a>
+        {% endif %}
+
+    <a href="logout">Logout</a>
+    {% else %}
+    <p>please login</p>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <ul class=flashes>
+        {% for category, message in messages %}
+            <li class="{{ category }}">{{ message }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    {% endwith %}
+    <form action="login" method="post">
+        <input type='email' name='email'></input>
+        <input type="password" name="pwd">
+        <input type="submit">
+    </form>
+    <a href="register">注册</a> {% endif %} -->
+</body>
+
+</html>
