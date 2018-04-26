@@ -1,0 +1,3 @@
+python+PyZMQ 测试 zeromq
+ptyhon3.6环境
+pyZMQ下载：pip install PyZMQ

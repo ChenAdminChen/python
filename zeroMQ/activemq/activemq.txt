@@ -1,0 +1,7 @@
+python + stomp 测试 activemq
+python 3.6环境
+stomp下载：pip install git+https://github.com/jasonrbriggs/stomp.py
+
+activemq.queue文件夹：测试queue消息模式的客户端与服务端代码
+activemq.pubSub文件夹：测试topic消息模式的客户端与服务端代码
+activemq.dsub文件夹：测试durable消息模式的客户端与服务端代码
